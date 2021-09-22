@@ -4,10 +4,15 @@
 }
 
 .book__cover {
+  flex-shrink: 0;
   margin-right: 45px;
   width: 145px;
   height: 205px;
   background-color: rgba($color: #c0ac67, $alpha: 0.1);
+}
+
+.book__info {
+  padding-top: 10px;
 }
 
 .book__title {
