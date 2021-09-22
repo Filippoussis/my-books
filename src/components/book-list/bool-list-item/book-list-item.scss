@@ -1,0 +1,45 @@
+.book {
+  display: flex;
+  padding: 25px 25px;
+}
+
+.book__cover {
+  margin-right: 45px;
+  width: 145px;
+  height: 205px;
+  background-color: rgba($color: #c0ac67, $alpha: 0.1);
+}
+
+.book__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+}
+
+.book__author {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.book__button {
+  padding: 8px 16px;
+  border: none;
+  font-size: 14px;
+  background-color: #c07268;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ad5448;
+  }
+}

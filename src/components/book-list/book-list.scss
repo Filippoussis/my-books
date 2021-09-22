@@ -1,0 +1,13 @@
+.book-list {
+  margin-bottom: 70px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.book-list__item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.book-list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
